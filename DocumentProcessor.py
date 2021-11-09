@@ -8,7 +8,7 @@ class DocumentProcessor:
 
     def retrieveContractNumber(self, filename):
 
-        # please point Tesseract to the right loation (remove this line for Mac)
+        # please point Tesseract to the right location (remove this line for Mac)
         pytesseract.pytesseract.tesseract_cmd = r'C:\\\Program Files\\\Tesseract-OCR\\\tesseract.exe'
 
         ocrText = pytesseract \
