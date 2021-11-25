@@ -29,7 +29,7 @@ Windows:
 
 Mac:
 - Make sure python3 is installed (this is the esiest using `brew install python`)
-- install the Tesseract software using homebrew: brew install tesseract - mac users
+- install the Tesseract software using homebrew: `brew install tesseract` - mac users
 - Create a virtual environment `python3 -m venv env`
 - Activate the virtual environment `source env/bin/activate`
 - install dependencies `pip install -r Requirements.txt`
