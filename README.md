@@ -25,7 +25,7 @@ Windows:
 - create a virtual environment `python3 -m venv env`
 - activate the virtual environment `env\Scripts\activate.bat`
 - install dependencies `pip install -r Requirements.txt`
-- make sure in the DocumentProcessor you add the location of the Tesseract executable
+- make sure in the DocumentProcessor the path to the Tesseract executable is correct
 
 Mac:
 - Make sure python3 is installed (this is the esiest using `brew install python`)
@@ -33,4 +33,3 @@ Mac:
 - Create a virtual environment `python3 -m venv env`
 - Activate the virtual environment `source env/bin/activate`
 - install dependencies `pip install -r Requirements.txt`
-- remove the line with the location of Tesseract.exe in DocumentProcessor
