@@ -3,12 +3,13 @@ try:
 except ImportError:
     import Image
 import pytesseract
+import sys
 
 class DocumentProcessor:
 
     def retrieveContractNumber(self, filename):
 
-        if "win" in sys.platform:
+        if "win32" in sys.platform:
             pytesseract.pytesseract.tesseract_cmd = r'C:\\\Program Files\\\Tesseract-OCR\\\tesseract.exe'
 
         ocrText = pytesseract \

@@ -33,3 +33,4 @@ Mac:
 - Create a virtual environment `python3 -m venv env`
 - Activate the virtual environment `source env/bin/activate`
 - install dependencies `pip install -r Requirements.txt`
+- If you don't have brew installed in the default prefix, add the following environment variable: `export TESSDATA_PREFIX=$(brew --prefix)/share/tessdata`
