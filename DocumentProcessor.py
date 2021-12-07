@@ -9,7 +9,7 @@ class DocumentProcessor:
     def retrieveContractNumber(self, filename):
         ocrText = pytesseract \
             .image_to_string(Image.open(filename)) \
-            .splitlines
+            .split('\n')
         _lineWithContractNumber = self.__findLineContractNumber(ocrText)
         _contractNumber =  self.__filterContractNumberFromLine(_lineWithContractNumber)
         return _contractNumber
