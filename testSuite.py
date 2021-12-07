@@ -6,7 +6,10 @@ class TestStringMethods(unittest.TestCase):
 
     documentProcessor = DocumentProcessor()
 
+    # This list contains pair of to be tested file and expected contractnumber
     contractNumbers = [['test.png', '1253748']]
+
+
 
     def test_1(self):
         documentProcessor = DocumentProcessor()
