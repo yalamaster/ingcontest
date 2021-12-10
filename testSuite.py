@@ -9,7 +9,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_0(self): self.assertEqual(documentProcessor.retrieveContractNumber('inputfiles/test.png'),'1253748')
 
-    #def test_1(self): self.assertEqual(documentProcessor.retrieveContractNumber('inputfiles/docu-001.png'), '768029749271')
+    def test_1(self): self.assertEqual(documentProcessor.retrieveContractNumber('inputfiles/docu-001.png'), '768029749271')
     # def test_2(self): self.assertEqual(documentProcessor.retrieveContractNumber('inputfiles/docu-002.png'), '517983182433')
     # def test_3(self): self.assertEqual(documentProcessor.retrieveContractNumber('inputfiles/docu-003.png'), 'O6435126')
     # def test_4(self): self.assertEqual(documentProcessor.retrieveContractNumber('inputfiles/docu-004.png'), 'T4818117')
