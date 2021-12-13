@@ -34,3 +34,14 @@ Mac:
 - Activate the virtual environment `source env/bin/activate`
 - install dependencies `pip install -r Requirements.txt`
 - If you don't have brew installed in the default prefix, add the following environment variable: `export TESSDATA_PREFIX=$(brew --prefix)/share/tessdata`
+
+
+Linux
+Uitgegaan van Raspbian/VSCode (Debian) 
+- sudo apt install tesseract-ocr y
+- sudo apt install tesseract-ocr-dut
+… make a programming directory
+… go there
+- git clone https://github.com/gertvermeer/ingcontest.git
+… in VSCode
+- install Pylance etc.
